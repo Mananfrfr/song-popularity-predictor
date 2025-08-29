@@ -1,9 +1,5 @@
 Flask==3.1.2
+gunicorn
+joblib==1.5.1
 numpy==2.3.2
-pandas==2.2.3   # if you’re using pandas for dataset handling
 scikit-learn==1.7.1
-scipy==1.16.1
-matplotlib==3.9.2   # only if you’re plotting graphs
-joblib==1.5.1       # for saving/loading models
-gunicorn==23.0.0    # if deploying on Render/Heroku (optional)
-
